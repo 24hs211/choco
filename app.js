@@ -8,7 +8,7 @@
             } else if (colour === "赤" && number === 1) {
                 result = "スター";
             } else if (colour === "赤" && number === 2) {
-                result = "キノコ";
+                result = "キノコ";     
             } else if (colour === "青" && number === 0) {
                 result = "みどり甲羅";
             } else if (colour === "青" && number === 1) {
@@ -21,7 +21,23 @@
                 result = "赤甲羅";
             } else if (colour === "黄色" && number === 2) {
                 result = "ゲッソー";
+            }else if (colour === "オレンジ" && number === 1) {
+                result = "パックン";
+            }else if (colour === "オレンジ" && number === 2) {
+                result = "テレサ";
+            }else if (colour === "オレンジ" && number === 0) {
+                result = "テレサ";
+            } else if (colour === "赤" && number === 3) {
+                result = "ブーメラン";     
+            } else if (colour === "青" && number === 3) {
+                result = "ファイアフラワー";
+            }else if (colour === "黄色" && number === 3) {
+                result = "ボム兵";
+            } else if (colour === "オレンジ" && number === 3) {
+                result = "クラクション";
             }
+
+
 
             document.getElementById('result-output').innerText = "あなたの今週のアイテムは【" + result + "】です";
         }
