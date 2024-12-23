@@ -1,40 +1,32 @@
         function checkFortune() {
             var colour = document.getElementById('colour-select').value;
             var number = parseInt(document.getElementById('number-input').value, 10);
-            var result ="コイン"; // デフォルトの値
+            var result ="市民"; // デフォルトの値
 
             if (colour === "赤" && number === 0) {
-                result = "キラー";
+                result = "人狼";
             } else if (colour === "赤" && number === 1) {
-                result = "スター";
+                result = "騎士";
             } else if (colour === "赤" && number === 2) {
-                result = "キノコ";     
+                result = "占い師";     
             } else if (colour === "青" && number === 0) {
-                result = "みどり甲羅";
+                result = "恋人";
             } else if (colour === "青" && number === 1) {
-                result = "バナナ";
+                result = "裏切り者";
             } else if (colour === "青" && number === 2) {
-                result = "サンダー";
+                result = "霊媒師";
             } else if (colour === "黄色" && number === 0) {
-                result = "トゲ甲羅";
+                result = "市民";
             } else if (colour === "黄色" && number === 1) {
-                result = "赤甲羅";
+                result = "双子";
             } else if (colour === "黄色" && number === 2) {
-                result = "ゲッソー";
+                result = "預言者";
             }else if (colour === "オレンジ" && number === 1) {
-                result = "パックン";
+                result = "市民";
             }else if (colour === "オレンジ" && number === 2) {
-                result = "テレサ";
+                result = "予言者";
             }else if (colour === "オレンジ" && number === 0) {
-                result = "テレサ";
-            } else if (colour === "赤" && number === 3) {
-                result = "ブーメラン";     
-            } else if (colour === "青" && number === 3) {
-                result = "ファイアフラワー";
-            }else if (colour === "黄色" && number === 3) {
-                result = "ボム兵";
-            } else if (colour === "オレンジ" && number === 3) {
-                result = "クラクション";
+                result = "人狼";
             }
 
 
