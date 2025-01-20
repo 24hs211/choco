@@ -31,5 +31,5 @@
 
 
 
-            document.getElementById('result-output').innerText = "あなたの今週のアイテムは【" + result + "】です";
+            document.getElementById('result-output').innerText = "あなたの役職は【" + result + "】です";
         }
